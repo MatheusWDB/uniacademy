@@ -481,6 +481,7 @@ header
   color: #7EED4E;
 }
 
+
 @media (max-width: 1200px) {
   .header-area .main-nav .nav li {
     padding-left: 12px;
@@ -623,7 +624,7 @@ banner
   position: relative;
 }
 
-.bg-video {
+#bg-video {
     min-width: 100%;
     min-height: 100vh;
     max-width: 100%;
@@ -631,8 +632,12 @@ banner
     object-fit: cover;
     z-index: -1;
 }
+.main-banner-2 {
+    position: relative;
+    bottom: -30px;
+}
 
-.bg-video::-webkit-media-controls {
+#bg-video::-webkit-media-controls {
     display: none !important;
 }
 
